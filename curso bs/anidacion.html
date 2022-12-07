@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/alumnos/cft_patricio_2022/curso_boostrap/template/boostrap/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+    crossorigin="anonymous">
+    <title>no_gutter</title>
+    <style>
+        h1 {text-align: center;}
+        .fila{
+            border: 2px solid blue;
+            background-color: lightblue;
+            margin-bottom: 15px;
+            /*height: 180px;*/
+        }
+        .columna{
+            background-color: lightgreen;
+            border: 2px solid green;
+            text-align: center;
+        }
+        .columna:nth-child(even){
+            background-color: palegoldenrod;
+            border:2px solid yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row fila">
+            <!--columna 1-->
+            <div class="col-6 columna">
+                columna 1
+            <div clas="row fila">
+                <div class="col columna">
+                        columna anidada 1
+                        <div class="row">
+                            <div class="col columna">1</div>
+                            <div class="col columna">2</div>
+                            <div class="col columna">3</div>
+                        </div>
+                </div>
+            <div class="col columna">
+                    columna anidada 2
+            </div>
+          </div>
+          <!--columna 2-->
+            <div class="col-6">columna 2</div>
+
+        </div>
+    </div>
+
+    <!--js script-->
+    <script src="/assets/alumnos/cft_patricio_2022/curso_boostrap/template/boostrap/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+</html>
